@@ -75,7 +75,7 @@ AUTHORS: Optional[List[str]] = [
     "Zoccoli, Antonio",
 ]
 
-ORGANIZATION_NAME: Optional[Union[str, List[str]]] = "University of Bologna"
+ORGANIZATION_NAME: Optional[Union[str, List[str]]] = "University of Bologna, Italy"
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = "https://www.unibo.it/en"
 
 SLYTAGSPLIT: Optional[Dict[str, List[str]]] = None
