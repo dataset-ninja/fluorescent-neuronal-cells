@@ -1,4 +1,4 @@
-**Fluorescent Neuronal Cells** is a dataset for instance segmentation, semantic segmentation, and object detection tasks. It is used in the biological and space research. 
+**Fluorescent Neuronal Cells** is a dataset for instance segmentation, semantic segmentation, and object detection tasks. It is used in the neurobiological research. 
 
 The dataset consists of 283 images with 5533 labeled objects belonging to 1 single class (*stained neuron*).
 

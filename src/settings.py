@@ -20,7 +20,7 @@ PROJECT_NAME_FULL: str = "Fluorescent Neuronal Cells"
 # * After uploading to instance ##
 ##################################
 LICENSE: License = License.CC_BY_SA_4_0()
-APPLICATIONS: List[Union[Industry, Domain, Research]] = [Research.Biological(), Research.Space()]
+APPLICATIONS: List[Union[Industry, Domain, Research]] = [Research.Neurobiological()]
 CATEGORY: Category = Category.Biology()
 
 CV_TASKS: List[CVTask] = [
