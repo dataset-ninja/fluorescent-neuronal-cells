@@ -24,8 +24,8 @@ APPLICATIONS: List[Union[Industry, Domain, Research]] = [Research.Biological(), 
 CATEGORY: Category = Category.Biology()
 
 CV_TASKS: List[CVTask] = [
-    CVTask.SemanticSegmentation(),
     CVTask.InstanceSegmentation(),
+    CVTask.SemanticSegmentation(),
     CVTask.ObjectDetection(),
 ]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.InstanceSegmentation()]
@@ -55,7 +55,7 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = None
 # If specific colors for classes are needed, fill this dict (e.g. {"class1": [255, 0, 0], "class2": [0, 255, 0]})
 
 PAPER: Optional[str] = "https://www.nature.com/articles/s41598-021-01929-5#Sec4"
-CITATION_URL: Optional[str] = "https://www.nature.com/articles/s41598-021-01929-5#citeas"
+CITATION_URL: Optional[str] = "http://amsacta.unibo.it/id/eprint/6706/"
 AUTHORS: Optional[List[str]] = [
     "Clissa, Luca",
     "Morelli, Roberto",
