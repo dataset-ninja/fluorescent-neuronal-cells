@@ -56,6 +56,8 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = None
 # If specific colors for classes are needed, fill this dict (e.g. {"class1": [255, 0, 0], "class2": [0, 255, 0]})
 
 PAPER: Optional[str] = "https://www.nature.com/articles/s41598-021-01929-5#Sec4"
+REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = {"GitHub":"https://github.com/robomorelli/cell_counting_yellow/tree/master"}
+
 CITATION_URL: Optional[str] = "http://amsacta.unibo.it/id/eprint/6706/"
 AUTHORS: Optional[List[str]] = [
     "Clissa, Luca",
@@ -75,6 +77,7 @@ AUTHORS: Optional[List[str]] = [
     "Zoccoli, Giovanna",
     "Zoccoli, Antonio",
 ]
+AUTHORS_CONTACTS: Optional[List[str]] = ["roberto.morelli7@unibo.it"]
 
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = "University of Bologna, Italy"
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = "https://www.unibo.it/en"
@@ -122,7 +125,9 @@ def get_settings():
     settings["paper"] = PAPER
     settings["citation_url"] = CITATION_URL
     settings["authors"] = AUTHORS
+    settings["authors_contacts"] = AUTHORS_CONTACTS
     settings["organization_name"] = ORGANIZATION_NAME
+    settings["repository"] = REPOSITORY
     settings["organization_url"] = ORGANIZATION_URL
     settings["slytagsplit"] = SLYTAGSPLIT
     settings["tags"] = TAGS
