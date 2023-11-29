@@ -1,6 +1,6 @@
 Dataset **Fluorescent Neuronal Cells** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/D/q/XV/nmq1BgrZZMAhNAuyVs9J7QosfmSUDCgtJrid4byQaMqaKgaw7XqaAvPZmPExsYIDb8Q0eAmbaWhaXCwyHa5hcb9GFi0cgVvnv7jHriEPgTfRB0LFSoTo7epJ97TA.tar)
+ [Download](https://www.dropbox.com/scl/fi/swr9k9cfklv2xtntbuihv/fluorescent-neuronal-cells-DatasetNinja.tar?rlkey=3f0lddoffiswyj7z0u1l86rj5&dl=1)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
